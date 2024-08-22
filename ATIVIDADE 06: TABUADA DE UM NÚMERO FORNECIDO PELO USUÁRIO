@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+
+    inteiro num1, mult
+
+  escreva("Digite um número: ")
+  leia (num1)
+
+  para(inteiro i=1; i<=10; i++){
+    mult=i*num1
+    escreva( i, "x", num1, "=", mult, "\n")
+  }
+    
+  }
+}
